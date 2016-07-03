@@ -1,0 +1,205 @@
+@font-face {
+    font-family:"Tahoma Regular"; /* Гарнитура шрифта */
+    src: url(../fonts/tahoma/tahoma.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family:"Tahoma Blood"; /* Гарнитура шрифта */
+    src: url(../fonts/tahoma/tahomabd.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+    width: 100%;
+    height: 1022px;
+    min-width:1024px;
+    max-width:1440px;
+}
+.logo {
+    height: 182px;
+}
+div.inner>div.col-md-6>img {
+    margin-left: 23px;
+    padding-top: 18px;
+}
+
+
+.flag {
+    float: left;
+    margin-right: 13px;
+}
+div.flag>span>a {
+    font-size: 10px;
+    font-family: 'Tahoma Regular';
+    text-decoration: underline;
+}
+div.flag>span {
+    top: -4px;
+    position: relative;
+}
+span#ones {
+    padding-left: 7px;
+}
+.banner{
+    height: 238px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #138aa7;
+}
+.cherta {
+    height: 1px;
+    background-color: rgba(127, 255, 212, 0);
+}
+.up_box {
+    height: 32px;
+    background-color: #128aa7;
+    border-bottom: 1px solid;
+    border-color: #5ef0ff;
+
+}
+.up_box-2 {
+    height: 148px;
+    background-color: #128aa7;
+    background: linear-gradient(to top, #fefcea, #11cde1);
+
+}
+.up_box-3 {
+    height: 990px;
+    background-color: #128aa7;
+    background: linear-gradient(to top, #0c739f, #40c5d3);
+
+}
+.text{
+    bottom: 32px;
+    position: relative;
+    font-family: 'Tahoma Regular', monospace ;
+    font-size: 12px;
+    color: white;
+}
+div#wrapper {
+    width: 1018px;
+	background:100% 100% ;
+	border: 1px solid #a6a8a9;
+	margin:0 auto;
+	height:1137px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-bottom: 2px solid;
+	background-color: white;
+    top: -1200px;
+    position: relative;
+}
+header {
+    z-index: 100;
+    position: relative;
+}
+nav {
+    background-color: #333333;
+    box-shadow: 0 4px 3px rgba(0,0,0,0.6);
+    border-bottom: 1px solid;
+    border-color: black;
+
+}
+.nav>li {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    margin-left: 24px;
+}
+.navbar-nav>li>a {
+    font-family: 'Tahoma Regular', monospace;
+    font-size: 14px;
+    color: white;
+}
+.navbar-nav>li>a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(238, 238, 238, 0);
+}
+.nav>li>a:hover {
+    text-decoration: underline;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: rgba(238, 238, 238, 0);
+    border-color: #337ab7;
+}
+.navbar-nav>li>.dropdown-menu>li {
+    position: relative;
+    left: -6px;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    background-color: #333333;
+    box-shadow: -1px 4px 6px rgba(0, 0, 0, 0.65);
+    border-radius: 0;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgba(51, 51, 51, 0);
+}
+.dropdown-menu>li>a:hover {
+    text-decoration: underline;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+}
+.container {
+    width: 1016px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.left, .right{
+    width: 210px;
+    background-color: #edeef0;
+    font-size: 18px;
+    font-family: 'Tahoma Regular', monospace;
+    color: rgb(66, 76, 67);
+    height: 680px;
+}
+div.left p.text-center.one, div.right p.text-center.two {
+    padding-top: 16px;
+}
+
+p.text-content {
+    font-family: 'Tahoma Regular', monospace;
+    font-size: 14px;
+    text-align: center;
+    color: #424c43;
+}
+
+p.text-zag {
+    font-size: 16px;
+    font-family: 'Tahoma Regular', monospace;
+    color: rgba(18, 138, 167, 0.8);
+    line-height: 1.2;
+    margin-top: 7px;
+}
+p.text-cont {
+    line-height: 0.8;
+    font-size: 13px;
+    font-family: 'Tahoma Regular', monospace;
+    color: rgba(18, 138, 167, 0.8);
+}
+p.text-cont a {
+    line-height: 0.8;
+    font-size: 13px;
+    font-family: 'Tahoma Regular', monospace;
+    color: rgba(18, 138, 167, 0.8);
+}
+p.text-cont.cont-end {
+    margin-bottom: 25px;
+}
