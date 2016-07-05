@@ -10,7 +10,7 @@ body {
     width: 100%;
     height: 1022px;
     min-width:1024px;
-    max-width:1440px;
+    max-width: 1990px;
 }
 .logo {
     height: 182px;
@@ -170,9 +170,9 @@ nav {
     color: rgb(66, 76, 67);
     height: 680px;
 }
-div.left p.text-center.one, div.right p.text-center.two {
-    padding-top: 16px;
-}
+.left h3, .right h3 {
+    text-align: center;
+} 
 
 p.text-content {
     font-family: 'Tahoma Regular', monospace;
